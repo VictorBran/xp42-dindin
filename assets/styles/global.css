@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25); ;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+header h2 a{
+    display: block;
+    color: transparent;
+    background: url('../dindin-imagens/logo-header.png') 0 0 no-repeat;
+    width: 244px;
+    height: 77px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+header nav ul li{
+    list-style: none;  
+    color: #FDFDFD;
+}
+
+header nav a{
+    text-decoration: none;
+    size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+footer{
+    background: #419488;
+    display: flex;
+    justify-content: center;  
+}
+
+footer h2 a{
+    display: block;
+    color: transparent;
+    background: url('../dindin-imagens/logo-footer.png') 0 0 no-repeat;
+    width: 312px;
+    height: 102px;
+}
+
+footer ul{
+    margin: 30px 0;
+    padding: 0;
+}
+
+footer ul li{
+    list-style: none;  
+    color: #FDFDFD;
+}
+
+footer a{
+    color: #FDFDFD;
+    text-decoration: none;
+    size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.links-anexos a{
+    border: 2px solid white;
+    border-radius: 62px;
+    padding: 14px 51px;
+    display: block;
+    margin: 0 0 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+
+    .container{
+        width: 720px;      
+    }
+    
+}
+
+@media only screen and (max-width: 481px) {
+
+    .container{
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;     
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
+
+}
