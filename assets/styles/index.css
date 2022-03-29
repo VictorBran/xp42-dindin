@@ -1,0 +1,251 @@
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    margin-bottom: 20px;
+
+    color: #FF4081;
+}
+
+main article p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    margin-bottom: 30px;
+
+    color: #555555;    
+}
+
+main article a{
+    border: 2px solid;
+    border-radius: 62px;
+    padding: 8px 26px;
+    color: #FF4081;
+    text-decoration: none;
+}
+
+.top video{
+    background: url("../dindin-imagens/ilustra-banner.png") 0 0 no-repeat;
+}
+
+.top{  
+    justify-content: space-evenly;   
+    display: flex;   
+    margin: 10%;  
+}
+
+div h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #FF4081;
+}
+
+.mid1 p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.mid1{
+    padding-bottom: 119px;
+}
+
+.mid1 a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: none;
+
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 15px 50px;
+
+    color: #FFFFFF;
+}
+
+.mid1-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image1{
+background: url('../dindin-imagens/ilustra-poupando.png') 0 0 no-repeat;    
+}
+
+.image2{
+background: url('../dindin-imagens/ilustra-investimento.png') 0 0 no-repeat;
+}
+
+.image3{
+background: url('../dindin-imagens/ilustra-independencia.png') 0 0 no-repeat;
+}
+
+.mid2{
+    margin: 119px 225px 157px 128px;
+}
+
+.mid2-dep1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 91px;
+    margin-bottom: 80px;
+}
+
+.mid2-dep2{
+    display: flex;
+    justify-content: space-between;;
+}
+
+.mid2 h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+
+    color: #009688;
+}
+
+.mid2 p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.mid2 span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+
+    color: #000000;
+}
+
+.bot{
+    margin: 200px 137px 53px 128px;
+
+}
+
+.bot-nav{
+    display: flex;
+    justify-content:  space-between;
+}
+
+.bot h6{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+
+    margin-bottom: 73px;
+
+    color: #009688;
+}
+
+.bot p span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #009688;
+}
+
+.bot a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-decoration: none;
+    margin-left: 450px;
+
+    padding: 10px 41px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+
+    color: #FF4081;
+}
+
+.bot img{
+    background-color: #C4C4C4;
+}
+
+@media only screen and (max-width: 841px) {
+    .mid2{
+        margin: auto;
+    }
+
+    .bot{
+        
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .bot a{
+        margin: 0;
+    }
+
+    .bot-nav{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+    .mid1{
+        width: 360px;
+    }
+
+    .mid2{
+        width: 360px;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .mid2-dep1, .mid2-dep2{
+        display: block;
+    }
+
+    .bot{
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bot a{
+        margin: 0;
+    }
+
+    .bot-nav{
+        display: block;
+    }
+
+    .image1, .image2, .image3{
+        background: 0;
+        width: 375px;
+        height: 450px;
+    }
+
+    footer{
+        margin-top: 20px;
+    }
+}
