@@ -26,14 +26,15 @@ main article a{
     text-decoration: none;
 }
 
-.top video{
-    background: url("../dindin-imagens/ilustra-banner.png") 0 0 no-repeat;
-}
-
 .top{  
     justify-content: space-evenly;   
     display: flex;   
     margin: 10%;  
+}
+
+.top-img{
+    max-width: 513px;
+    max-height: 513px;
 }
 
 div h3 {
@@ -81,16 +82,8 @@ div h3 {
     justify-content: space-evenly;
 }
 
-.image1{
-background: url('../dindin-imagens/ilustra-poupando.png') 0 0 no-repeat;    
-}
-
-.image2{
-background: url('../dindin-imagens/ilustra-investimento.png') 0 0 no-repeat;
-}
-
-.image3{
-background: url('../dindin-imagens/ilustra-independencia.png') 0 0 no-repeat;
+.image1, .image2, .image3{
+    margin: 10px;
 }
 
 .mid2{
@@ -188,17 +181,16 @@ background: url('../dindin-imagens/ilustra-independencia.png') 0 0 no-repeat;
 }
 
 @media only screen and (max-width: 841px) {
+
+    .top{
+        display: block;
+    }
+
+
     .mid2{
         margin: auto;
     }
 
-    .bot{
-        
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
     .bot a{
         margin: 0;
@@ -206,6 +198,10 @@ background: url('../dindin-imagens/ilustra-independencia.png') 0 0 no-repeat;
 
     .bot-nav{
         display: block;
+    }
+
+    footer{
+          margin-top: 20px;
     }
 
 }
@@ -239,11 +235,7 @@ background: url('../dindin-imagens/ilustra-independencia.png') 0 0 no-repeat;
         display: block;
     }
 
-    .image1, .image2, .image3{
-        background: 0;
-        width: 375px;
-        height: 450px;
-    }
+
 
     footer{
         margin-top: 20px;

@@ -1,0 +1,104 @@
+img{
+    margin-right:53px;
+    margin-bottom: 90px;
+    background: url("../dindin-imagens/play.jpg") 180px 80px no-repeat;  
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+video{
+    background: url('../dindin-imagens/ilustra-poupando.png');
+}
+
+.mid1{
+    margin: 93px 98px 75px 98px;
+}
+
+.mid1-images p{
+    font-style: normal;    
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+
+    padding-bottom: 60px;
+
+    color: #000000;
+}
+
+.mid1-top{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 160px;
+}
+
+.image1{
+    display: flex;
+    border-bottom: 5px solid #C4C4C4;
+    margin-bottom: 107px;
+    justify-content: center;
+}
+
+.image2{
+    display: flex;
+    border-bottom: 5px solid #C4C4C4;
+    margin-bottom: 93px;
+    justify-content: center;
+}
+
+.image3{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 841px) {
+
+    .mid1{
+        margin: 0;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .image1, .image2, .image3{
+        display: table;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+
+    .mid1{
+        margin-left: 10px;
+        display: table;
+        justify-content: center;
+        
+    }
+
+    .image1, .image2, .image3{
+        display: table;
+        justify-content: center;
+    }
+
+    img{
+        width: 80%;
+        height: 80%;
+        background: url('../dindin-imagens/play.jpg')100px 40px no-repeat;
+    }
+
+}
