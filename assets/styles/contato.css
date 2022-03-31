@@ -1,0 +1,103 @@
+.screen-reader-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+article{ 
+    margin: 82px 163px 99px 136px;
+}
+
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 30px;
+
+    color: #FF4081;    
+}
+
+.contato-formulario{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nome, #email, #comentario{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 5px 22px;
+    width: 493px;
+    height: 32px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    resize: none;
+}
+
+#comentario{
+    padding:10px 21px;
+    height: 193px;
+}
+
+#enviar:hover{
+    background-color: #ea91af;
+}
+
+#enviar{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 7px 25px;
+    transition-duration: 0.8s;
+
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;    
+}
+
+@media only screen and (max-width: 841px) {
+
+
+    .contato-formulario{
+        display: block;
+    }
+
+    #nome, #email, #comentario{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+    .contato-formulario{
+        display: block;
+    }
+
+    #nome, #email, #comentario{
+        width: 90%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+
+}
+
