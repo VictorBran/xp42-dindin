@@ -118,6 +118,7 @@ div h3 {
     article img{
         width: 435px;
         height: 217px;
+        margin-left: 150px;
     }
      
 }
@@ -131,6 +132,6 @@ div h3 {
     article img{
         width: 250px;
         height: 125px;
-        align-items: center;
+        margin-left: 60px;
     }
 }
