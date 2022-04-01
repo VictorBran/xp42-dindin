@@ -1,7 +1,6 @@
-img{
+iframe{
     margin-right:53px;
     margin-bottom: 90px;
-    background: url("../dindin-imagens/play.jpg") 180px 80px no-repeat;  
 }
 
 h1{
@@ -95,10 +94,8 @@ video{
         justify-content: center;
     }
 
-    img{
-        width: 80%;
-        height: 80%;
-        background: url('../dindin-imagens/play.jpg')100px 40px no-repeat;
+    iframe{
+        width: 90%;
     }
 
 }
