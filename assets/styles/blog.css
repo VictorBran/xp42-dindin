@@ -39,7 +39,8 @@ main article p{
 .mid{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 170px;
+    background: #E5E5E5;
+    padding-bottom: 170px;
 }
 
 .mid img{

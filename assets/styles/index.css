@@ -60,6 +60,7 @@ div h3 {
 
 .mid1{
     padding-bottom: 119px;
+    background: #F7F7F7;
 }
 
 .mid1 a{
@@ -132,7 +133,6 @@ div h3 {
 
 .bot{
     margin: 200px 137px 53px 128px;
-
 }
 
 .bot-nav{
@@ -183,7 +183,7 @@ div h3 {
 @media only screen and (max-width: 841px) {
 
     .top{
-        display: block;
+        flex-direction: column-reverse;
     }
 
 
@@ -226,6 +226,7 @@ div h3 {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin: auto;
     }
     .bot a{
         margin: 0;
